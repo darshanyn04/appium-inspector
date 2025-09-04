@@ -156,6 +156,10 @@ The Inspector has built-in integrations with various cloud service provider plat
       </a>
     </td>
   </tr>
+  <tr> <td> 
+  <a href="https://docs.webmate.io/app-testing/appium-inspector/">
+        <img width="200" height="50" alt="Device Farm" src="app/common/renderer/assets/images/deviceFarm_logo.svg">
+      </a></td> </tr>
 </table>
 
 > [!NOTE]

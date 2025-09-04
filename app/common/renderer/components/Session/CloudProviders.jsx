@@ -22,6 +22,7 @@ import TVLabsLogo from '../../assets/images/tvlabs_logo.svg';
 import TVLabsLogoDark from '../../assets/images/tvlabs_logo_dark.svg';
 import WebmateLogo from '../../assets/images/webmate_logo.svg';
 import WebmateLogoDark from '../../assets/images/webmate_logo_dark.svg';
+import DeviceFarm from '../../assets/images/deviceFarm.svg';
 import {SERVER_TYPES} from '../../constants/session-builder.js';
 import {useTheme} from '../../hooks/use-theme';
 import ServerTabBitbar from './ServerTabBitbar.jsx';
@@ -40,6 +41,7 @@ import ServerTabTestcribe from './ServerTabTestcribe.jsx';
 import ServerTabTestingbot from './ServerTabTestingbot.jsx';
 import ServerTabTVLabs from './ServerTabTVLabs.jsx';
 import ServerTabWebmate from './ServerTabWebmate.jsx';
+import ServerTabDeviceFarm from './ServerTabDeviceFarm.jsx';
 import SessionStyles from './Session.module.css';
 
 const providers = {
@@ -153,6 +155,13 @@ const providers = {
     logos: {
       light: WebmateLogo,
       dark: WebmateLogoDark,
+    },
+  },
+  [SERVER_TYPES.DEVICEFARM]: {
+    tab: ServerTabDeviceFarm,
+    logos: {
+      light: DeviceFarm,
+      dark: null,
     },
   },
 };
