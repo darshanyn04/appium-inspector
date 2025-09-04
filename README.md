@@ -157,7 +157,7 @@ The Inspector has built-in integrations with various cloud service provider plat
     </td>
   </tr>
   <tr> <td> 
-  <a href="https://docs.webmate.io/app-testing/appium-inspector/">
+  <a href="https://www.fireflink.com/documentation/">
         <img width="200" height="50" alt="Device Farm" src="app/common/renderer/assets/images/deviceFarm_logo.svg">
       </a></td> </tr>
 </table>
