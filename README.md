@@ -156,7 +156,7 @@ The Inspector has built-in integrations with various cloud service provider plat
       </a>
     </td>
   </tr>
-  <tr> <td> 
+  <tr> <td align="center" valign="center"> 
   <a href="https://www.fireflink.com/documentation/">
         <img width="200" height="50" alt="Device Farm" src="app/common/renderer/assets/images/deviceFarm_logo.svg">
       </a></td> </tr>

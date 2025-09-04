@@ -22,7 +22,8 @@ import TVLabsLogo from '../../assets/images/tvlabs_logo.svg';
 import TVLabsLogoDark from '../../assets/images/tvlabs_logo_dark.svg';
 import WebmateLogo from '../../assets/images/webmate_logo.svg';
 import WebmateLogoDark from '../../assets/images/webmate_logo_dark.svg';
-import DeviceFarm from '../../assets/images/deviceFarm.svg';
+import DeviceFarmWhite from '../../assets/images/deviceFarm.svg';
+import DeviceFarmColor from '../../assets/images/deviceFarm_logo.svg';
 import {SERVER_TYPES} from '../../constants/session-builder.js';
 import {useTheme} from '../../hooks/use-theme';
 import ServerTabBitbar from './ServerTabBitbar.jsx';
@@ -160,8 +161,8 @@ const providers = {
   [SERVER_TYPES.DEVICEFARM]: {
     tab: ServerTabDeviceFarm,
     logos: {
-      light: DeviceFarm,
-      dark: null,
+      light: DeviceFarmColor,
+      dark: DeviceFarmWhite,
     },
   },
 };
